@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+    <title>Proyecto 2</title>
+</head>
+<body>
+    <section id="inicio" class="header">
+        <nav class="navbar">
+            <a href="#inicio"><img class="img1" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Vector_Informatik_Logo.svg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-circle" onclick="hideMenu()"></i>
+             <ul>
+               <li><a href="#incio">INICIO</a></li>
+               <li><a href="#inicio">SOBRE NOSOTROS</a></li>
+               <li><a href="#course">CURSOS</a></li>
+               <li><a href="#blog">BLOG</a></li>
+               <li><a href="#contacto">CONTACTO</a></li>
+             </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Instituto especializado en Tecnología</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Dolorem quos explicabo perspiciatis quae necessitatibus consequuntur dolores quod enim debitis deserunt.</p>
+            <a href="" class="hero-btn">Visitanos para saber más</a>
+        </div>
+    </section>
+    <section id="course" class="course">
+        <h1>Cursos que ofrecemos</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex cumque quam nemo amet et pariatur nostrum consequatur blanditiis autem culpa, facere ullam error non quod, quos iste incidunt? Aut, ducimus.</p>
+        <div class="row">
+         <div class="course-col">
+          <h3>Desarrollo Web</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, delectus est quasi rerum, soluta labore illum magnam accusamus earum exercitationem ratione ipsam nemo, nam inventore necessitatibus debitis quisquam tempora laborum.</p>
+         </div>
+         <div class="course-col">
+            <h3>Aplicaciones Moviles</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ducimus fugit assumenda necessitatibus quaerat. Sit aliquid voluptatem ab corporis omnis nam officiis tempora sequi, facilis voluptas, dolores cupiditate eum ut!</p>
+         </div>
+         <div class="course-col">
+            <h3>Ciberseguridad</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, delectus est quasi rerum, soluta labore illum magnam accusamus earum exercitationem ratione ipsam nemo, nam inventore necessitatibus debitis quisquam tempora laborum.</p>
+        </div>
+    </div>
+    </section>
+    <section id="blog" class="campus">
+       <h1>Nuestras Sucursales</h1>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi odio dolorem dolores ut repellendus unde, animi necessitatibus nulla quos, quaerat fugit minus voluptate iusto, consequatur adipisci. Ipsa, nobis quibusdam!</p>
+       <div class="row">
+         <div class="campus-col">
+            <img src="newyork.png">
+            <div class="layer">
+                <h3>NYC</h3>
+            </div>
+         </div>
+         <div class="campus-col">
+            <img src="london.png">
+            <div class="layer">
+                <h3>LONDRES</h3>
+            </div>
+         </div>
+         <div class="campus-col">
+            <img src="washington.png">
+            <div class="layer">
+                <h3>BUENOS AIRES</h3>
+            </div>
+         </div>
+       </div>
+    </section>
+    
+    <section class="facilites">
+      <h1>Nuestras Ventajas</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non facere enim quaerat quo eveniet. Saepe, rerum, assumenda deleniti fugit temporibus earum tempore voluptas nisi eaque molestias illo. Nobis, tenetur ratione.</p>
+      <div class="row">
+        <div class="facilites-col">
+            <img src="library.png">
+            <h3>Librería en línea</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, nihil quae non est doloribus aut cupiditate sapiente commodi alias. Velit ex explicabo nulla et quam cupiditate pariatur eveniet quod nobis.</p>
+        </div>
+                <div class="facilites-col">
+                    <img src="cafeteria.png">
+                    <h3>Cafeteria</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, nihil quae non est doloribus aut cupiditate sapiente commodi alias. Velit ex explicabo nulla et quam cupiditate pariatur eveniet quod nobis.</p>
+                </div>
+                        <div class="facilites-col">
+                            <img src="basketball.png">
+                            <h3>Salon Deportivo</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, nihil quae non est doloribus aut cupiditate sapiente commodi alias. Velit ex explicabo nulla et quam cupiditate pariatur eveniet quod nobis.</p>
+                        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="cta">
+    <h1>Inscribite a nuestros cursos <br>Cuando y donde sea</h1>
+    <a href="#12" class="hero-btn">Contacto</a>
+    </section>
+
+    <section class="footer">
+        <h4>Sobre Nosotros</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus earum nulla iste? Minus labore quae doloremque est iste repudiandae accusamus? Quidem adipisci molestiae ab consequatur doloribus ad error sunt ipsum!</p>
+        
+</section>
+</body>
+</html>
+    
+    
+    
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
